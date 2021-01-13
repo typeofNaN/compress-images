@@ -1,0 +1,25 @@
+{
+  "name": "compress-images",
+  "version": "1.0.0",
+  "description": "compress images, power by node.js.",
+  "main": "main.js",
+  "author": "typeofNaN",
+  "keywords": [
+    "compress-images"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typeofNaN/compress-images.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typeofNaN/compress-images/issues"
+  },
+  "homepage": "https://github.com/typeofNaN/compress-images#readme",
+  "license": "MIT",
+  "dependencies": {
+    "images": "^3.2.3"
+  }
+}
