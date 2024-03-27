@@ -29,7 +29,7 @@ function compressImage(path, quality = 30) {
           if (file.indexOf('.png') >= 0 || file.indexOf('.jp') >= 0) {
             const name = path + file
             const outName = outDirPath + file
-            
+
             console.log(`文件${name}正在压缩...`)
             images(name).save(outName, { quality })
             console.log(`文件${name}压缩成功！`)
